@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_311" class="java.beans.XMLDecoder">
+ <object class="model.Perfumeria" id="Perfumeria0">
+  <void property="listClientes">
+   <void method="add">
+    <object class="model.Cliente">
+     <void property="email">
+      <string>Ernesto@gmail.com</string>
+     </void>
+     <void property="nombre">
+      <string>Ernesto</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="model.Cliente">
+     <void property="email">
+      <string>Albeiro@gmail.com</string>
+     </void>
+     <void property="nombre">
+      <string>Albeiro</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="listaAdmins">
+   <void method="add">
+    <object class="model.Administrador">
+     <void property="codigo">
+      <string>123</string>
+     </void>
+     <void property="nombre">
+      <string>juan</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="listaProductos">
+   <void method="add">
+    <object class="model.Producto">
+     <void property="cantidad">
+      <int>4</int>
+     </void>
+     <void property="descripcion">
+      <string>locion mujer</string>
+     </void>
+     <void property="nombre">
+      <string>bulgari</string>
+     </void>
+     <void property="precio">
+      <double>10000.0</double>
+     </void>
+     <void property="tipoProducto">
+      <string>locion</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="model.Producto">
+     <void property="cantidad">
+      <int>5</int>
+     </void>
+     <void property="descripcion">
+      <string>locion mujer</string>
+     </void>
+     <void property="nombre">
+      <string>mour</string>
+     </void>
+     <void property="precio">
+      <double>15000.0</double>
+     </void>
+     <void property="tipoProducto">
+      <string>colonia</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
